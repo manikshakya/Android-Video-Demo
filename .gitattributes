@@ -1,0 +1,4 @@
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.ap_ filter=lfs diff=lfs merge=lfs -text
+/Users/manikshakya/Desktop/Github/[[:space:]]Repository/Android-Video-Demo/app/build/intermediates filter=lfs diff=lfs merge=lfs -text

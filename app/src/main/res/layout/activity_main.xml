@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.manikshakya.videodemo.MainActivity">
+
+    <Button
+        android:id="@+id/playMedia"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="53dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="167dp"
+        android:onClick="playMedia"
+        android:text="Play" />
+
+    <Button
+        android:id="@+id/pauseMedia"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/playMedia"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:onClick="pauseMedia"
+        android:text="Pause" />
+
+    <SeekBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pauseMedia"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp" />
+
+</android.widget.RelativeLayout>
